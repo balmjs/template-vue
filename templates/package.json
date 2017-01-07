@@ -1,0 +1,21 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "description": "A Vue.js project",
+  "private": true,
+  "scripts": {
+    "dev": "gulp",
+    "prod": "gulp --production"
+  },
+  "dependencies": {
+    "vue": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-runtime": "^6.0.0",
+    "babel-preset-stage-2": "^6.0.0",
+    "balm": "^0.5.7",
+    "gulp": "^3.9.1",
+    "vue-loader": "^10.0.0",
+    "vue-template-compiler": "^2.1.0"
+  }
+}
