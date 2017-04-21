@@ -6,7 +6,7 @@ module.exports = {
     }
   },
   entry: {
-    main: './app/js/main.js' // entry js file
+    main: './app/scripts/main.js' // entry js file
   },
   assets: {
     root: 'assets', // replace 'assets' to your remote project root
