@@ -950,9 +950,9 @@ balanced-match@^0.4.1, balanced-match@^0.4.2:
   version "0.4.2"
   resolved "http://registry.npm.taobao.org/balanced-match/download/balanced-match-0.4.2.tgz#cb3f3e3c732dc0f01ee70b403f302e61d7709838"
 
-balm@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/balm/-/balm-0.6.0.tgz#05691dc72ceee421278236851397b58ca29fd06c"
+balm@^0.6.1:
+  version "0.6.1"
+  resolved "http://registry.npm.taobao.org/balm/download/balm-0.6.1.tgz#90a27abd66eb388382d1a8fea0522be0c416e7e6"
   dependencies:
     autoprefixer "^7.1.1"
     babel-core "^6.24.1"
