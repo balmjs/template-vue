@@ -31,11 +31,13 @@ balm.config = {
       loader: 'vue'
     }],
     alias: {
-      'vue': balm.config.production ? 'vue/dist/vue.min.js' : 'vue/dist/vue.js'
+      vue: balm.config.production ? 'vue/dist/vue.min.js' : 'vue/dist/vue.js'
     }
   },
   cache: true,
   assets: config.assets
+  // More Config
+  // https://github.com/balmjs/balm/blob/master/docs/configuration.md
 };
 
 balm.go(function(mix) {

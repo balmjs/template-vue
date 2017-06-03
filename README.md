@@ -5,8 +5,12 @@
 
 ```sh
 npm install -g balm-cli
-
 balm init vue my-project
+
+cd my-project
+yarn install
+# or
+npm install
 ```
 
 ## Enjoy
@@ -18,3 +22,5 @@ npm run dev
 # For production
 npm run prod
 ```
+
+> thx [BalmJS](http://balmjs.com/)
