@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <p>thx <a href="//balmjs.com/">BalmJS</a> &amp; <a href="//balmjs.com/ui-vue/">BalmUI</a></p>
+    <p>thx <a href="//balmjs.com/">BalmJS</a></p>
   </div>
 </template>
 
