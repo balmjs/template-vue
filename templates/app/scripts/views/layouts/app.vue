@@ -7,6 +7,7 @@
 
 <script>
 import Hello from '../components/hello';
+import logo from '../../../images/logo.png';
 
 export default {
   name: 'app',
@@ -15,7 +16,7 @@ export default {
   },
   data() {
     return {
-      logo: require('../../../images/logo.png')
+      logo
     };
   }
 };
