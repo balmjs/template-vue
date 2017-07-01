@@ -31,7 +31,7 @@ balm.config = {
       loader: 'vue'
     }],
     alias: {
-      vue: balm.config.production ? 'vue/dist/vue.min.js' : 'vue/dist/vue.js'
+      'vue$': balm.config.production ? 'vue/dist/vue.min.js' : 'vue/dist/vue.esm.js'
     }
   },
   cache: true,
