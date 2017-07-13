@@ -8,12 +8,12 @@
 <script>
 export default {
   name: 'hello',
-  data () {
+  data() {
     return {
       msg: 'Hello Vue App'
     }
   }
-}
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
