@@ -25,7 +25,7 @@ module.exports = {
     autoprefixer: [
       '> 1%',
       'last 2 versions',
-      'not ie <= 8'
+      'not ie < 9'
     ]
   },
   scripts: {
