@@ -1,6 +1,6 @@
 {
   "name": "my-vue-project",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A Vue.js project",
   "private": true,
   "scripts": {
@@ -14,6 +14,7 @@
     "babel-eslint": "^8.0.0",
     "babel-preset-stage-2": "^6.24.1",
     "balm": "^0.9.1",
+    "eslint-plugin-html": "^3.2.2",
     "gulp": "^3.9.1",
     "vue-loader": "^13.0.5",
     "vue-template-compiler": "^2.4.4"
