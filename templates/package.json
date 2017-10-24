@@ -8,15 +8,15 @@
     "prod": "gulp --production"
   },
   "dependencies": {
-    "vue": "^2.4.4"
+    "vue": "^2.5.2"
   },
   "devDependencies": {
     "babel-eslint": "^8.0.1",
     "babel-preset-stage-2": "^6.24.1",
-    "balm": "^0.10.1",
+    "balm": "^0.10.3",
     "eslint-plugin-html": "^3.2.2",
     "gulp": "^3.9.1",
-    "vue-loader": "^13.0.5",
-    "vue-template-compiler": "^2.4.4"
+    "vue-loader": "^13.3.0",
+    "vue-template-compiler": "^2.5.2"
   }
 }
