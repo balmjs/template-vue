@@ -6,13 +6,13 @@
 </template>
 
 <script>
-import Hello from '../components/hello';
+import hello from '../components/hello';
 import logo from '../../../images/logo.png';
 
 export default {
   name: 'app',
   components: {
-    Hello
+    hello
   },
   data() {
     return {
