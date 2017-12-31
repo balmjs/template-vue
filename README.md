@@ -8,10 +8,12 @@ npm install -g balm-cli
 balm init vue my-project
 
 cd my-project
-yarn install
+yarn
 # or
-npm install
+npm i
 ```
+
+> (recommended) [BalmUI Lite](http://mdl.balmjs.com/) for your project
 
 ## Enjoy
 
