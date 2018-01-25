@@ -13,8 +13,8 @@
   "devDependencies": {
     "babel-eslint": "^8.2.1",
     "babel-preset-stage-2": "^6.24.1",
-    "balm": "^0.15.2",
-    "eslint-plugin-html": "^4.0.1",
+    "balm": "^0.16.1",
+    "eslint-plugin-html": "^4.0.2",
     "gulp": "^3.9.1",
     "vue-loader": "^13.7.0",
     "vue-template-compiler": "^2.5.13"
