@@ -22,7 +22,7 @@ module.exports = {
   },
   styles: {
     ext: 'scss',
-    autoprefixer: ['> 1%', 'last 2 versions', 'not ie < 9']
+    autoprefixer: ['> 1%', 'last 2 versions', 'not ie <= 8']
   },
   scripts: {
     entry: {
