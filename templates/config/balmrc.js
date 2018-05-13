@@ -1,6 +1,7 @@
 // Documentation - http://balmjs.com/docs/en/configuration/toc.html
 // 中文文档 - http://balmjs.com/docs/zh-cn/configuration/toc.html
 var balm = require('balm');
+var VueLoaderPlugin = require('vue-loader/lib/plugin');
 
 module.exports = {
   server: {
@@ -35,6 +36,7 @@ module.exports = {
         loader: 'vue-loader'
       }
     ],
+    plugins: [new VueLoaderPlugin()],
     alias: {
       vue$: 'vue/dist/vue.esm.js'
     }
