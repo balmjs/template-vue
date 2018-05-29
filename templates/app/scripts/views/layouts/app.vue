@@ -7,7 +7,7 @@
 
 <script>
 import Hello from '../components/hello';
-import logo from '../../../images/logo.png';
+import logo from '../../assets/logo.png';
 
 export default {
   name: 'app',
