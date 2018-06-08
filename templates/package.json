@@ -13,11 +13,11 @@
   "devDependencies": {
     "babel-eslint": "^8.2.3",
     "babel-preset-stage-2": "^6.24.1",
-    "balm": "^0.22.0",
+    "balm": "^0.23.2",
     "eslint": "^4.19.1",
     "eslint-plugin-vue": "^4.5.0",
     "gulp": "^3.9.1",
-    "vue-loader": "^15.2.2",
+    "vue-loader": "^15.2.4",
     "vue-template-compiler": "^2.5.16"
   }
 }
