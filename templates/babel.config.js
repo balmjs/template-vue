@@ -31,10 +31,5 @@ module.exports = {
       }
     ],
     '@babel/plugin-proposal-json-strings'
-  ],
-  env: {
-    test: {
-      plugins: ['istanbul']
-    }
-  }
+  ]
 };
