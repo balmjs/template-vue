@@ -8,25 +8,25 @@
     "prod": "gulp --silent --production"
   },
   "dependencies": {
-    "vue": "^2.5.17"
+    "vue": "^2.5.22"
   },
   "devDependencies": {
-    "@babel/core": "^7.1.2",
-    "@babel/plugin-proposal-class-properties": "^7.1.0",
-    "@babel/plugin-proposal-decorators": "^7.1.2",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-decorators": "^7.0.0",
     "@babel/plugin-proposal-export-namespace-from": "^7.0.0",
-    "@babel/plugin-proposal-function-sent": "^7.1.0",
+    "@babel/plugin-proposal-function-sent": "^7.0.0",
     "@babel/plugin-proposal-json-strings": "^7.0.0",
     "@babel/plugin-proposal-numeric-separator": "^7.0.0",
     "@babel/plugin-proposal-throw-expressions": "^7.0.0",
     "@babel/plugin-syntax-dynamic-import": "^7.0.0",
     "@babel/plugin-syntax-import-meta": "^7.0.0",
     "babel-eslint": "^10.0.0",
-    "balm": "^0.24.6",
-    "eslint": "^5.8.0",
-    "eslint-plugin-vue": "^4.7.1",
-    "gulp": "^3.9.1",
-    "vue-loader": "^15.4.2",
-    "vue-template-compiler": "^2.5.17"
+    "balm": "^1.0.0",
+    "eslint": "^5.13.0",
+    "eslint-plugin-vue": "^5.1.0",
+    "gulp": "^4.0.0",
+    "vue-loader": "^15.6.2",
+    "vue-template-compiler": "^2.5.22"
   }
 }
