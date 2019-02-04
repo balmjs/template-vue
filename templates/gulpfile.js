@@ -5,7 +5,7 @@ const templates = require('./config/publish');
 balm.config = config;
 
 balm.go(mix => {
-  if (balm.config.production) {
+  if (balm.config.isProd) {
     // Publish assets
     mix.publish();
     // Publish templates
