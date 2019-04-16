@@ -14,7 +14,7 @@ yarn
 npm i
 ```
 
-> (Recommended) [BalmUI Lite](http://mdl.balmjs.com/) for your project
+> (Recommended) [BalmUI](https://material.balmjs.com/) for your project
 
 ## Enjoy
 
@@ -26,4 +26,4 @@ npm run dev
 npm run prod
 ```
 
-> thx [BalmJS](http://balmjs.com/)
+> thx [BalmJS](https://balmjs.com/)
