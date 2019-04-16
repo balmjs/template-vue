@@ -1,7 +1,10 @@
-// Documentation - http://balmjs.com/docs/en/configuration/toc.html
-// 中文文档 - http://balmjs.com/docs/zh-cn/configuration/toc.html
+/*eslint no-undef: "error"*/
+/*eslint-env node*/
+const path = require('path');
 const VueLoaderPlugin = require('vue-loader/lib/plugin');
 
+// Documentation - http://balmjs.com/docs/en/configuration/toc.html
+// 中文文档 - http://balmjs.com/docs/zh-cn/configuration/toc.html
 module.exports = {
   server: {
     open: true,
@@ -36,7 +39,8 @@ module.exports = {
     ],
     plugins: [new VueLoaderPlugin()],
     alias: {
-      vue$: 'vue/dist/vue.esm.js'
+      vue$: 'vue/dist/vue.esm.js',
+      '@': path.resolve(__dirname, '..', 'app', 'scripts')
     }
   },
   cache: true,
