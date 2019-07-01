@@ -1,8 +1,7 @@
 {
   "name": "my-vue-project",
-  "version": "4.0.0",
+  "version": "1.0.0",
   "description": "A Vue.js project",
-  "private": true,
   "scripts": {
     "dev": "gulp --silent",
     "prod": "gulp --silent --production"
@@ -21,12 +20,13 @@
     "@babel/plugin-proposal-throw-expressions": "^7.0.0",
     "@babel/plugin-syntax-dynamic-import": "^7.0.0",
     "@babel/plugin-syntax-import-meta": "^7.0.0",
-    "babel-eslint": "^10.0.0",
-    "balm": "^1.5.1",
-    "eslint": "^5.16.0",
-    "eslint-plugin-vue": "^5.2.2",
+    "babel-eslint": "^10.0.2",
+    "balm": "^1.5.7",
+    "eslint": "^6.0.1",
+    "eslint-plugin-vue": "^5.2.3",
     "gulp": "^4.0.2",
     "vue-loader": "^15.7.0",
     "vue-template-compiler": "^2.6.10"
-  }
+  },
+  "private": true
 }
