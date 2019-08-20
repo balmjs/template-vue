@@ -1,7 +1,8 @@
 {
-  "name": "my-vue-project",
+  "name": "{{ name }}",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "{{ description }}",
+  "author": "{{ author }}",
   "scripts": {
     "dev": "gulp --silent",
     "prod": "gulp --silent --production"
