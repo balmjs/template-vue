@@ -1,3 +1,4 @@
+/*eslint-env node*/
 const balm = require('balm');
 const config = require('./config/balmrc');
 const templates = require('./config/publish');
@@ -5,12 +6,10 @@ const templates = require('./config/publish');
 balm.config = config;
 
 balm.go(mix => {
-  if (balm.config.isProd) {
+  if (mix.env.isProd) {
     // Publish assets
     mix.publish();
     // Publish templates
-    Object.keys(templates).forEach(key => {
-      mix.publish(key, templates[key].target, templates[key].option || {});
-    });
+    mix.publish(templates);
   }
 });
