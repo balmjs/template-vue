@@ -1,4 +1,4 @@
-# BalmJS template - vue
+# BalmJS template - `vue`
 
 > A Vue.js project
 
@@ -14,7 +14,7 @@ yarn
 npm i
 ```
 
-> (Recommended) [BalmUI](https://material.balmjs.com/) for your project
+- (Recommended) [BalmUI](https://material.balmjs.com/) for your project
 
 ## Enjoy
 
@@ -26,4 +26,4 @@ npm run dev
 npm run prod
 ```
 
-> thx [BalmJS](https://balmjs.com/)
+- thx [BalmJS](https://balmjs.com/)
