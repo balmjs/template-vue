@@ -1,6 +1,5 @@
-/*eslint-env node*/
-
-module.exports = [
+/* eslint-env node */
+const templates = [
   {
     input: 'index.html',
     output: 'views', // Replace 'views' to your remote project views path
@@ -10,3 +9,12 @@ module.exports = [
     }
   }
 ];
+
+module.exports = function publish(mix) {
+  if (mix.env.isProd) {
+    // Publish assets
+    mix.publish();
+    // Publish templates
+    mix.publish(templates);
+  }
+};
