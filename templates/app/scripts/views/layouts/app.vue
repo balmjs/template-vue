@@ -1,8 +1,6 @@
 <template>
-  <div class="container">
-    <img :src="logo" alt>
-    <hello></hello>
-  </div>
+  <img :src="logo" alt />
+  <hello></hello>
 </template>
 
 <script>
@@ -14,7 +12,7 @@ export default {
   components: {
     Hello
   },
-  data() {
+  setup() {
     return {
       logo
     };

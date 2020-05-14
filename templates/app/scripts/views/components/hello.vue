@@ -1,18 +1,28 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>thx <a href="//balmjs.com/">BalmJS</a></p>
-  </div>
+  <h1>{{ msg }}</h1>
+  <p>thx <a href="//balmjs.com/">BalmJS</a></p>
 </template>
 
 <script>
+import { ref, reactive, toRefs } from 'vue';
+
 export default {
   name: 'hello',
-  data() {
+  setup() {
+    const msg = ref('Hello Vue App');
+
     return {
-      msg: 'Hello Vue App'
+      msg
     };
   }
+  // OR
+  // setup() {
+  //   const state = reactive({
+  //     msg: 'Hello Vue App'
+  //   });
+
+  //   return toRefs(state);
+  // }
 };
 </script>
 

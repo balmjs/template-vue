@@ -1,6 +1,6 @@
 /* eslint-env node */
 const path = require('path');
-const VueLoaderPlugin = require('vue-loader/lib/plugin');
+const { VueLoaderPlugin } = require('vue-loader');
 
 // Documentation - http://balmjs.com/docs/v2/config/
 // 中文文档 - https://balmjs.com/docs/v2/zh/config/
@@ -32,7 +32,6 @@ module.exports = {
     ],
     plugins: [new VueLoaderPlugin()],
     alias: {
-      vue$: 'vue/dist/vue.esm.js',
       '@': path.resolve(__dirname, '..', 'app', 'scripts')
     }
   },
