@@ -21,7 +21,9 @@ export default {
   //     msg: 'Hello Vue App'
   //   });
 
-  //   return toRefs(state);
+  //   return {
+  //     ...toRefs(state)
+  //   };
   // }
 };
 </script>
