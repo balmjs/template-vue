@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <img :src="logo" alt />
+    <img :src="logo" />
     <hello></hello>
   </div>
 </template>
@@ -10,7 +10,7 @@ import Hello from '@/views/components/hello';
 import logo from '@/assets/logo.png';
 
 export default {
-  name: 'app',
+  name: 'App',
   components: {
     Hello
   },
