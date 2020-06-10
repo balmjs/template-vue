@@ -1,5 +1,4 @@
-/.tmp/
-/config/
-/dist/
-/*.js
-/test/unit/coverage/
+__mocks__
+__tests__
+.tmp
+dist

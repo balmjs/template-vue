@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <img :src="logo" alt>
+    <img :src="logo" alt />
     <hello></hello>
   </div>
 </template>
