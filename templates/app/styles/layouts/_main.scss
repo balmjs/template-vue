@@ -1,10 +1,9 @@
 .container {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  font-size: $fontSize-m;
-  margin-top: 60px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
   color: $primaryColor;
   background-color: $primaryBgColor;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-size: $fontSize-m;
 }
