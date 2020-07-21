@@ -1,7 +1,9 @@
 <template>
   <div class="container">
-    <img :src="logo" />
-    <hello></hello>
+    <header class="hero">
+      <img :src="logo" />
+      <hello></hello>
+    </header>
   </div>
 </template>
 
