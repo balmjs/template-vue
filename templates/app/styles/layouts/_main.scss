@@ -3,9 +3,9 @@
   justify-content: center;
   align-items: center;
   height: 100%;
-  color: $primaryColor;
-  background-color: $primaryBgColor;
-  font-size: $fontSize-m;
+  background-color: $theme-bgcolor;
+  color: $text-primary-color;
+  font-size: $font-size-m;
 }
 
 .hero {
