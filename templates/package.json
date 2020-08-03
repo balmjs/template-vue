@@ -4,8 +4,8 @@
   "description": "{{ description }}",
   "author": "{{ author }}",
   "scripts": {
-    "dev": "gulp --silent",
-    "prod": "gulp --silent -p",
+    "dev": "balm",
+    "prod": "balm -p",
     "test": "jest"
   },
   "dependencies": {
@@ -15,16 +15,15 @@
     "@vue/test-utils": "^1.0.3",
     "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "^10.1.0",
-    "babel-jest": "^26.1.0",
-    "balm": "^2.22.0",
-    "eslint": "^7.5.0",
+    "babel-jest": "^26.2.2",
+    "balm": "^3.0.0-beta.12",
+    "eslint": "^7.6.0",
     "eslint-plugin-vue": "^6.2.2",
-    "gulp": "^4.0.2",
-    "jest": "^26.1.0",
+    "jest": "^26.2.2",
     "vue-jest": "^3.0.6",
     "vue-loader": "^15.9.3",
     "vue-template-compiler": "^2.6.11",
-    "webpack": "^4.43.0"
+    "webpack": "^4.44.0"
   },
   "private": true
 }
