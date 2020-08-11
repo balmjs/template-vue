@@ -16,7 +16,7 @@
     "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "^10.1.0",
     "babel-jest": "^26.2.2",
-    "balm": "^3.0.0-beta.12",
+    "balm": "^3.0.0-beta.14",
     "eslint": "^7.6.0",
     "eslint-plugin-vue": "^6.2.2",
     "jest": "^26.2.2",

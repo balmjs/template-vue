@@ -2,10 +2,26 @@
 
 > A Vue.js project
 
+## Requirements
+
+```sh
+yarn global add balm-core balm-cli
+# OR
+npm install -g balm-core balm-cli
+```
+
+```sh
+# Verify
+balm -V
+
+# Output:
+# balm-cli: 2.0.0
+# balm-core: 3.0.0
+```
+
 ## Installation
 
 ```sh
-npm install -g balm-cli
 balm init vue my-project
 
 cd my-project
@@ -26,4 +42,4 @@ npm run dev
 npm run prod
 ```
 
-- thx [BalmJS](https://balmjs.com/)
+- thx [BalmJS](https://balm.js.org/)
