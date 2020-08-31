@@ -42,4 +42,4 @@ npm run dev
 npm run prod
 ```
 
-- thx [BalmJS](https://balm.js.org/)
+- thx [BalmJS](https://github.com/balmjs/balm)
