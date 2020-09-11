@@ -1,6 +1,9 @@
 <template>
   <h1>{{ msg }}</h1>
-  <p>thx <a href="//balmjs.com/">BalmJS</a></p>
+  <p>
+    thx
+    <a href="//balm.js.org/">BalmJS</a>
+  </p>
 </template>
 
 <script>
@@ -9,7 +12,7 @@ import { ref, reactive, toRefs } from 'vue';
 export default {
   name: 'hello',
   setup() {
-    const msg = ref('Hello Vue App');
+    const msg = ref('Hello Vue@3 App');
 
     return {
       msg
@@ -18,7 +21,7 @@ export default {
   // OR
   // setup() {
   //   const state = reactive({
-  //     msg: 'Hello Vue App'
+  //     msg: 'Hello Vue@3 App'
   //   });
 
   //   return {
