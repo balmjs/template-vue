@@ -9,20 +9,20 @@
     "test": "jest"
   },
   "dependencies": {
-    "vue": "^2.6.11"
+    "vue": "^2.6.12"
   },
   "devDependencies": {
-    "@vue/test-utils": "^1.0.3",
+    "@vue/test-utils": "^1.1.0",
     "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "^10.1.0",
-    "babel-jest": "^26.2.2",
-    "balm": "^3.0.0",
-    "eslint": "^7.6.0",
+    "babel-jest": "^26.3.0",
+    "balm": "^3.5.0",
+    "eslint": "^7.10.0",
     "eslint-plugin-vue": "^6.2.2",
-    "jest": "^26.2.2",
-    "vue-jest": "^3.0.6",
+    "jest": "^26.4.0",
+    "vue-jest": "^3.0.0",
     "vue-loader": "^15.9.3",
-    "vue-template-compiler": "^2.6.11",
+    "vue-template-compiler": "^2.6.12",
     "webpack": "^4.44.0"
   },
   "private": true
