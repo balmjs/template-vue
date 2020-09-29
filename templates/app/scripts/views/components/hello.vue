@@ -7,27 +7,19 @@
 </template>
 
 <script>
-import { ref, reactive, toRefs } from 'vue';
+import { ref } from 'vue';
 
 export default {
-  name: 'hello',
+  name: 'Hello',
   setup() {
-    const msg = ref('Hello Vue@3 App');
+    const msg = ref('');
+
+    msg.value = 'Hello Vue 3.0 App';
 
     return {
       msg
     };
   }
-  // OR
-  // setup() {
-  //   const state = reactive({
-  //     msg: 'Hello Vue@3 App'
-  //   });
-
-  //   return {
-  //     ...toRefs(state)
-  //   };
-  // }
 };
 </script>
 

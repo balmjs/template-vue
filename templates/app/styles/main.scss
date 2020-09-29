@@ -1,7 +1,7 @@
-@import 'global/index';
+@use './global';
 
-@import 'layouts/index';
+@use './layouts';
 
-@import 'components/hello';
+@use './components/hello';
 
-@import 'pages/home';
+@use './pages/home';

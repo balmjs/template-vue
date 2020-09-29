@@ -22,7 +22,7 @@ balm -V
 ## Installation
 
 ```sh
-balm init vue#vue3 my-project
+balm init vue#next my-project
 
 cd my-project
 yarn
@@ -30,7 +30,7 @@ yarn
 npm i
 ```
 
-- (Recommended) [BalmUI](https://material.balmjs.com/) for your project
+- (Recommended) [BalmUI](https://material.balmjs.com/)@next (v9.0) for your project
 
 ## Enjoy
 

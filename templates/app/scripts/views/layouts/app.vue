@@ -8,7 +8,7 @@ import Hello from '@/views/components/hello';
 import logo from '@/assets/logo.png';
 
 export default {
-  name: 'app',
+  name: 'App',
   components: {
     Hello
   },

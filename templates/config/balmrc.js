@@ -17,7 +17,8 @@ module.exports = {
     source: 'app'
   },
   styles: {
-    extname: 'scss'
+    extname: 'scss',
+    dartSass: true
   },
   scripts: {
     entry: {
