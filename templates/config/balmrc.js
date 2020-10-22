@@ -1,4 +1,5 @@
 const path = require('path');
+const webpack = require('webpack');
 const { VueLoaderPlugin } = require('vue-loader');
 
 // Documentation - https://balm.js.org/docs/config/
@@ -30,7 +31,13 @@ module.exports = {
         loader: 'vue-loader'
       }
     ],
-    plugins: [new VueLoaderPlugin()],
+    plugins: [
+      new VueLoaderPlugin(),
+      new webpack.DefinePlugin({
+        __VUE_OPTIONS_API__: true,
+        __VUE_PROD_DEVTOOLS__: false
+      })
+    ],
     alias: Object.assign(
       {
         '@': path.resolve(__dirname, '..', 'app', 'scripts')
