@@ -33,17 +33,18 @@ module.exports = {
     ],
     plugins: [
       new VueLoaderPlugin(),
+      // feature flags <http://link.vuejs.org/feature-flags>
       new webpack.DefinePlugin({
-        __VUE_OPTIONS_API__: true,
-        __VUE_PROD_DEVTOOLS__: false
+        __VUE_OPTIONS_API__: 'true',
+        __VUE_PROD_DEVTOOLS__: 'false'
       })
     ],
     alias: Object.assign(
       {
-        '@': path.resolve(__dirname, '..', 'app', 'scripts')
-        // vue$: 'vue/dist/vue.esm-bundler.js',
+        '@': path.resolve(__dirname, '..', 'app', 'scripts'),
+        vue$: 'vue/dist/vue.esm-bundler.js'
       },
-      // fix(vue@3.0.1+): __VUE_HMR_RUNTIME__ is not defined
+      // fix(vue@3.0.1+): __VUE_HMR_RUNTIME__ is not defined in development
       {
         '@vue/runtime-core':
           '@vue/runtime-core/dist/runtime-core.esm-bundler.js'
