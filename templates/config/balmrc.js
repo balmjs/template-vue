@@ -31,9 +31,17 @@ module.exports = {
       }
     ],
     plugins: [new VueLoaderPlugin()],
-    alias: {
-      '@': path.resolve(__dirname, '..', 'app', 'scripts')
-    }
+    alias: Object.assign(
+      {
+        '@': path.resolve(__dirname, '..', 'app', 'scripts')
+        // vue$: 'vue/dist/vue.esm-bundler.js',
+      },
+      // fix(vue@3.0.1+): __VUE_HMR_RUNTIME__ is not defined
+      {
+        '@vue/runtime-core':
+          '@vue/runtime-core/dist/runtime-core.esm-bundler.js'
+      }
+    )
   },
   assets: {
     root: 'assets', // Replace 'assets' to your remote project root

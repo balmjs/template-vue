@@ -18,6 +18,7 @@ module.exports = {
   extends: ['plugin:vue/vue3-recommended', 'eslint:recommended'],
   rules: {
     // allow debugger during development
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'vue/html-indent': 'off'
   }
 };
