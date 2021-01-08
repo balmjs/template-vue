@@ -1,3 +1,5 @@
+const path = require('path');
+
 // For a detailed explanation regarding each configuration property, visit:
 // https://jestjs.io/docs/en/configuration.html
 
@@ -69,17 +71,14 @@ module.exports = {
   // ],
 
   // An array of file extensions your modules use
-  moduleFileExtensions: [
-    "js",
-    "json",
-    "vue"
-  ],
+  moduleFileExtensions: ['js', 'json', 'vue'],
 
   // A map from regular expressions to module names that allow to stub out resources with a single module
   moduleNameMapper: {
-    "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
-    "\\.(css|less)$": "<rootDir>/__mocks__/styleMock.js",
-    "^@/(.*)$": "<rootDir>/app/scripts/$1"
+    '\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$':
+      '<rootDir>/__mocks__/fileMock.js',
+    '\\.(css|less)$': '<rootDir>/__mocks__/styleMock.js',
+    '^@/(.*)$': '<rootDir>/app/scripts/$1'
   },
 
   // An array of regexp pattern strings, matched against all module paths before considered 'visible' to the module loader
@@ -113,7 +112,7 @@ module.exports = {
   // restoreMocks: false,
 
   // The root directory that Jest should scan for tests and modules within
-  // rootDir: undefined,
+  rootDir: path.resolve(__dirname),
 
   // A list of paths to directories that Jest should use to search for files in
   // roots: [
@@ -130,7 +129,7 @@ module.exports = {
   // setupFilesAfterEnv: [],
 
   // A list of paths to snapshot serializer modules Jest should use for snapshot testing
-  // snapshotSerializers: [],
+  snapshotSerializers: ['<rootDir>/node_modules/jest-serializer-vue'],
 
   // The test environment that will be used for testing
   // testEnvironment: "jest-environment-jsdom",
@@ -169,9 +168,9 @@ module.exports = {
 
   // A map from regular expressions to paths to transformers
   transform: {
-    ".*\\.(vue)$": "vue-jest",
-    "^.+\\.js$": "babel-jest"
-  },
+    '^.+\\.js$': '<rootDir>/node_modules/babel-jest',
+    '.*\\.(vue)$': '<rootDir>/node_modules/vue-jest'
+  }
 
   // An array of regexp pattern strings that are matched against all source file paths, matched files will skip transformation
   // transformIgnorePatterns: [
