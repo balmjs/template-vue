@@ -1,5 +1,5 @@
-import { shallowMount } from '@vue/test-utils'
-import Hello from '../app/scripts/views/components/hello';
+import { shallowMount } from '@vue/test-utils';
+import Hello from '../app/scripts/views/components/hello.vue';
 
 describe('Hello BalmJS', () => {
   it('should be "Hello Vue App"', () => {
