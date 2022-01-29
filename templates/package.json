@@ -1,5 +1,5 @@
 {
-  "name": "{{ name }}",
+  "name": "test",
   "version": "1.0.0",
   "description": "{{ description }}",
   "author": "{{ author }}",
@@ -14,11 +14,11 @@
   "devDependencies": {
     "@types/jest": "^27.0.0",
     "@vue/compiler-sfc": "^3.0.0",
-    "@vue/test-utils": "^2.0.0-rc.16",
+    "@vue/test-utils": "^2.0.0-rc.18",
     "babel-eslint": "^10.1.0",
     "babel-jest": "^27.0.0",
-    "balm": "^3.20.0",
-    "eslint": "^8.2.0",
+    "balm": "^3.21.0",
+    "eslint": "^8.0.0",
     "eslint-plugin-vue": "^8.0.0",
     "jest": "^27.0.0",
     "jest-serializer-vue": "^2.0.2",

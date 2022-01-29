@@ -18,8 +18,7 @@ module.exports = {
     source: 'app'
   },
   styles: {
-    extname: 'scss',
-    dartSass: true
+    extname: 'scss'
   },
   scripts: {
     entry: {
@@ -39,17 +38,10 @@ module.exports = {
         __VUE_PROD_DEVTOOLS__: 'false'
       })
     ],
-    alias: Object.assign(
-      {
-        '@': path.resolve(__dirname, '..', 'app', 'scripts'),
-        vue$: 'vue/dist/vue.esm-bundler.js'
-      }
-      // fix(vue@3.0.1+): __VUE_HMR_RUNTIME__ is not defined in development
-      // {
-      //   '@vue/runtime-core':
-      //     '@vue/runtime-core/dist/runtime-core.esm-bundler.js'
-      // }
-    )
+    alias: Object.assign({
+      '@': path.resolve(__dirname, '..', 'app', 'scripts'),
+      vue$: 'vue/dist/vue.esm-bundler.js'
+    })
   },
   assets: {
     root: 'assets', // Replace 'assets' to your remote project root

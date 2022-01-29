@@ -2,10 +2,10 @@
 
 .container {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  font-size: global.$fontSize-m;
+  font-size: global.$font-size-m;
   text-align: center;
-  color: global.$primaryColor;
-  background-color: global.$primaryBgColor;
+  color: global.$text-primary-color;
+  background-color: global.$theme-bgcolor;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
