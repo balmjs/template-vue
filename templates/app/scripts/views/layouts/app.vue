@@ -1,10 +1,6 @@
 <template>
-  <div class="container">
-    <header class="hero">
-      <img :src="logo" />
-      <hello></hello>
-    </header>
-  </div>
+  <img :src="logo" alt />
+  <hello></hello>
 </template>
 
 <script>
@@ -16,7 +12,7 @@ export default {
   components: {
     Hello
   },
-  data() {
+  setup() {
     return {
       logo
     };

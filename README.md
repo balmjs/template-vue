@@ -21,26 +21,16 @@ balm -V
 
 ## Installation
 
-- For Vue 2.0
-
-  ```sh
-  balm init vue my-project
-  ```
-
-- For Vue 3.0
-
-  ```sh
-  balm init vue#next my-project
-  ```
-
 ```sh
+balm init vue#next my-project
+
 cd my-project
 yarn
 # or
 npm i
 ```
 
-- (Recommended) [BalmUI](https://material.balmjs.com/) for your project
+- (Recommended) [BalmUI](https://material.balmjs.com/)@next (v9.0) for your project
 
 ## Enjoy
 

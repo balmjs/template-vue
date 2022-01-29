@@ -1,5 +1,6 @@
 const path = require('path');
-const VueLoaderPlugin = require('vue-loader/lib/plugin');
+const webpack = require('webpack');
+const { VueLoaderPlugin } = require('vue-loader');
 
 // Documentation - https://balm.js.org/docs/config/
 // 中文文档 - https://balm.js.org/docs/zh/config/
@@ -17,7 +18,8 @@ module.exports = {
     source: 'app'
   },
   styles: {
-    extname: 'scss'
+    extname: 'scss',
+    dartSass: true
   },
   scripts: {
     entry: {
@@ -29,11 +31,25 @@ module.exports = {
         loader: 'vue-loader'
       }
     ],
-    plugins: [new VueLoaderPlugin()],
-    alias: {
-      vue$: 'vue/dist/vue.esm.js',
-      '@': path.resolve(__dirname, '..', 'app', 'scripts')
-    }
+    plugins: [
+      new VueLoaderPlugin(),
+      // feature flags <http://link.vuejs.org/feature-flags>
+      new webpack.DefinePlugin({
+        __VUE_OPTIONS_API__: 'true',
+        __VUE_PROD_DEVTOOLS__: 'false'
+      })
+    ],
+    alias: Object.assign(
+      {
+        '@': path.resolve(__dirname, '..', 'app', 'scripts'),
+        vue$: 'vue/dist/vue.esm-bundler.js'
+      }
+      // fix(vue@3.0.1+): __VUE_HMR_RUNTIME__ is not defined in development
+      // {
+      //   '@vue/runtime-core':
+      //     '@vue/runtime-core/dist/runtime-core.esm-bundler.js'
+      // }
+    )
   },
   assets: {
     root: 'assets', // Replace 'assets' to your remote project root
