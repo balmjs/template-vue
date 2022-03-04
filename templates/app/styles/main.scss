@@ -1,7 +1,4 @@
-@import 'global/index';
-
-@import 'layouts/main';
-
-@import 'components/hello';
-
-@import 'pages/home';
+@use 'global';
+@use 'layouts';
+@use 'components';
+@use 'pages';

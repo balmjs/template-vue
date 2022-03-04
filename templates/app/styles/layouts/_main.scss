@@ -1,11 +1,13 @@
+@use '../global/index' as global;
+
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
-  background-color: $theme-bgcolor;
-  color: $text-primary-color;
-  font-size: $font-size-m;
+  background-color: global.$theme-bgcolor;
+  color: global.$text-primary-color;
+  font-size: global.$font-size-m;
 }
 
 .hero {

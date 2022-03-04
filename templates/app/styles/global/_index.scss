@@ -1,4 +1,4 @@
-@import 'var';
-@import 'vendor';
-@import 'mixins';
-@import 'reset';
+@use 'reset';
+@use 'vendor';
+@forward 'var';
+@forward 'mixins';
