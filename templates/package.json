@@ -12,10 +12,11 @@
     "vue": "^3.0.0"
   },
   "devDependencies": {
+    "@babel/eslint-parser": "^7.17.0",
     "@types/jest": "^27.0.0",
     "@vue/compiler-sfc": "^3.0.0",
-    "@vue/test-utils": "^2.0.0-rc.18",
-    "babel-eslint": "^10.1.0",
+    "@vue/test-utils": "^2.0.0-rc.20",
+    "@vue/vue3-jest": "^27.0.0-alpha.4",
     "babel-jest": "^27.0.0",
     "balm": "^3.22.0",
     "eslint": "^8.0.0",
@@ -24,7 +25,6 @@
     "jest-serializer-vue": "^2.0.2",
     "ts-jest": "^27.0.0",
     "typescript": "^4.0.0",
-    "vue-jest": "^5.0.0-alpha.10",
     "vue-loader": "^17.0.0",
     "webpack": "4"
   },
