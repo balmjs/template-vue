@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.17.0",
-    "@vue/test-utils": "^1.1.0",
+    "@vue/test-utils": "^1.3.0",
     "@vue/vue2-jest": "^27.0.0-alpha.4",
     "babel-jest": "^27.0.0",
     "balm": "^3.22.0",
