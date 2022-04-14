@@ -1,9 +1,5 @@
 const config = require('./config/balmrc');
-const publish = require('./config/balm.publish');
-
-const api = mix => {
-  publish(mix);
-};
+const api = require('./config/balm.api');
 
 module.exports = () => {
   return {
