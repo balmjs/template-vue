@@ -47,8 +47,8 @@ module.exports = {
       })
     ],
     alias: {
-      '@': resolve(`${appRoot}/scripts`),
-      vue$: 'vue/dist/vue.esm-bundler.js'
+      vue$: 'vue/dist/vue.esm-bundler.js',
+      '@': resolve(`${appRoot}/scripts`)
     }
   },
   assets: {
