@@ -1,13 +1,13 @@
 # BalmJS template - `vue`
 
-> A Vue.js project
+> A Vue.js project (for vue2)
 
 ## Requirements
 
 ```sh
-yarn global add balm-core balm-cli
+yarn global add balm-cli balm-core
 # OR
-npm install -g balm-core balm-cli
+npm install -g balm-cli balm-core
 ```
 
 ```sh
@@ -15,7 +15,7 @@ npm install -g balm-core balm-cli
 balm -V
 
 # Output:
-# balm-cli: 2.0.0
+# balm-cli: 3.0.0
 # balm-core: 3.0.0
 ```
 
